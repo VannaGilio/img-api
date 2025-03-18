@@ -1,0 +1,19 @@
+body {
+    background-color: #000000;
+    margin: 0;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center ;
+    gap: 20px;
+    padding: 20px;
+}
+
+.galeria img {
+    width: 40%;
+    height: 40%;
+    object-fit: cover;
+    border-radius: 2px;
+}
